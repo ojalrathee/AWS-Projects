@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nature & PhotoGraphy</title>
+<meta name="description" content="Solo travel and nature photography portfolio — silent visual documentaries from the field.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV DOT / PROGRESS MARK ============ -->
+<div class="coord-mark" aria-hidden="true">
+  <span class="coord-line"></span>
+  <span class="coord-text">N 45°24' · W 71°53'</span>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero__bg" style="background-image:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1920&q=80');"></div>
+  <div class="hero__scrim"></div>
+
+  <nav class="hero__nav">
+    <span class="brand">Ojal&nbsp;Rathee</span>
+    <span class="hero__nav-tag">Field Journal No. 08</span>
+  </nav>
+
+  <div class="hero__content">
+    <p class="eyebrow">Solo travel &amp; nature photography</p>
+    <h1 class="hero__title">
+      Silence,<br>
+      carried in a<br>
+      <em>frame.</em>
+    </h1>
+    <p class="hero__sub">Nine years, forty-one countries, one camera bag — documenting the quiet places between destinations.</p>
+    <a href="#gallery" class="btn btn--primary" id="viewGalleryBtn">
+      <span>View Gallery</span>
+      <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 1V15M8 15L14 9M8 15L2 9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span></span>
+    <p>scroll</p>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about__inner">
+    <p class="section-label">01 — About the work</p>
+    <div class="about__grid">
+      <h2 class="about__lead">
+        I travel alone so the landscape can speak first, and I photograph it before I speak at all.
+      </h2>
+      <div class="about__body">
+        <p>My work begins with distance — a bus that runs once a day, a trailhead with no signage, a village reachable only on foot. Solo travel strips away the noise of shared itineraries and leaves room for the kind of attention a place actually deserves.</p>
+        <p>I think of each series as a silent documentary: no narration, no staged moments, just light behaving honestly. Between frames, I try to arrive as a guest — sharing meals, learning enough language to be polite, and letting the people I meet shape the story as much as the terrain does.</p>
+        <p>Eight years and forty-one countries in, the practice hasn't changed much: walk further than feels efficient, wait longer than feels comfortable, and photograph what's left when the hurry wears off.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery" id="gallery">
+  <div class="gallery__header">
+    <p class="section-label">02 — Selected frames</p>
+    <h2 class="gallery__title">Field Notes</h2>
+  </div>
+
+  <div class="gallery__grid" id="galleryGrid">
+
+    <figure class="gallery__item gallery__item--tall" data-index="0">
+      <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80" alt="Sunlit forest road disappearing into mist" loading="lazy">
+      <figcaption><span class="loc">Black Forest, Germany</span><span class="coord">48.3°N</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item" data-index="1">
+      <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80" alt="Turquoise alpine lake surrounded by mountains" loading="lazy">
+      <figcaption><span class="loc">Banff, Canada</span><span class="coord">51.4°N</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item" data-index="2">
+      <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80" alt="Mountain range at golden hour">
+      <figcaption><span class="loc">Dolomites, Italy</span><span class="coord">46.4°N</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item gallery__item--wide" data-index="3">
+      <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1400&q=80" alt="Layered mountain ridges fading into fog" loading="lazy">
+      <figcaption><span class="loc">Torres del Paine, Chile</span><span class="coord">51.0°S</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item" data-index="4">
+      <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1000&q=80" alt="Waterfall in dense green jungle" loading="lazy">
+      <figcaption><span class="loc">Ubud, Indonesia</span><span class="coord">8.5°S</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item gallery__item--tall" data-index="5">
+      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=80" alt="Sun rays breaking through tall forest canopy" loading="lazy">
+      <figcaption><span class="loc">Fiordland, New Zealand</span><span class="coord">45.4°S</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item" data-index="6">
+      <img src="https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?auto=format&fit=crop&w=1000&q=80" alt="Still lake reflecting distant mountains at dawn" loading="lazy">
+      <figcaption><span class="loc">Lofoten, Norway</span><span class="coord">68.1°N</span></figcaption>
+    </figure>
+
+    <figure class="gallery__item" data-index="7">
+      <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1000&q=80" alt="Winding desert canyon walls in warm light" loading="lazy">
+      <figcaption><span class="loc">Wadi Rum, Jordan</span><span class="coord">29.6°N</span></figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close image">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 2L20 20M20 2L2 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+  <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+
+  <figure class="lightbox__figure">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer class="contact" id="contact">
+  <div class="contact__inner">
+    <div class="contact__intro">
+      <p class="section-label">03 — Get in touch</p>
+      <h2 class="contact__title">Have a story that<br>needs quiet documenting?</h2>
+      <p class="contact__sub">Prints, editorial commissions, and travel collaborations — I read every note myself.</p>
+
+      <ul class="social" aria-label="Social media links">
+        <li>
+          <a href="#" aria-label="Instagram" class="social__link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4.3" stroke="currentColor" stroke-width="1.4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Behance" class="social__link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M2 6h6.2c3.4 0 3.9 4.1.8 5C12.6 11.5 12 17 7.8 17H2V6Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M15 9.5h6.3M14.5 14c.4 4.4 8 4.3 8-.2 0-4.3-7.3-4.9-8 0Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            <span>Behance</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="YouTube" class="social__link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="5.5" width="19" height="13" rx="4" stroke="currentColor" stroke-width="1.4"/><path d="M10.5 9.5L15 12l-4.5 2.5v-5Z" fill="currentColor"/></svg>
+            <span>YouTube</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Email" class="social__link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 6.5L12 13l8.5-6.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Email</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact__form" id="contactForm" onsubmit="return false;">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+      </div>
+      <div class="field">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Print inquiry, commission, collaboration…">
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell me a little about your story…"></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--form">
+        <span>Send Message</span>
+      </button>
+      <p class="form__note">This form is a UI preview and isn't connected to a mail service yet.</p>
+    </form>
+  </div>
+
+  <div class="contact__base">
+    <p>&copy; <span id="year"></span> Ojal Rathee. All frames reserved.</p>
+    <p class="contact__base-tag">Shot on film &amp; carried by hand.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

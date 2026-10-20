@@ -1,0 +1,6 @@
+Hello! This is a demo text for my AWS Text-to-Speech project.
+
+This text is uploaded to Amazon S3 and processed using AWS Lambda.
+Amazon Polly converts the text into speech and generates an audio file.
+
+Thank you for checking out my project!
